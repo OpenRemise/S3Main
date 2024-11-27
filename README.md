@@ -15,3 +15,16 @@ white and black -> 0.22mm
 
 PCB Style Guide
 https://www.pcblibraries.com/forum/metric-pcb-design-tips_topic3103.html
+
+## TPS281C100x
+| ILIM1 | ILIM0 | RILIM | ICL [A] |
+| ----- | ----- | ----- | ------- |
+| 0     | 0     | ∞     | 0.5     |
+| 0     | 1     | 39000 | 1.27    |
+| 1     | 0     | 18700 | 2.72    |
+| 1     | 1     | 12640 | 4.11    |
+
+| OL_ON | Load [A] | Sense ratio | ISNS [mA] | RSNS | VSNS [V] | % of 1V ADC |
+| ----- | -------- | ----------- | --------- | ---- | -------- | ----------- |
+| 0     | 4        | 800         | 5         | 180  | 0.9      | 90          |
+| 1     | 0.004    | 24          | 0.167     | 180  | 0.03     | 3           |

@@ -44082,7 +44082,7 @@
 			)
 		)
 	)
-	(gr_text "RevA"
+	(gr_text "0.1.0"
 		(at 164.1 83.3 270)
 		(layer "F.SilkS")
 		(uuid "3dd5484a-d56e-43db-991d-5a49e8ac0e32")
