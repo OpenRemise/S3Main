@@ -672,6 +672,10 @@
       {
         "netclass": "Gate",
         "pattern": "Net-(D7*)"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "Net-(D18*)"
       }
     ]
   },
