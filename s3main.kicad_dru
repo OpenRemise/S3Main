@@ -42,7 +42,7 @@
 
 (rule "Pad Size"
 (constraint hole_size (min 0.2mm))
-(constraint annular_width (min 0.25mm))
+(constraint annular_width (min 0.15mm))
 (condition "A.Type == 'Pad' && A.isPlated()"))
 
 (rule "Minimum Castellated Hole Size"
